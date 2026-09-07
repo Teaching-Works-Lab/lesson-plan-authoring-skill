@@ -1,0 +1,35 @@
+{
+  "name": "lesson-plan-authoring-skill",
+  "version": "0.1.0",
+  "description": "Markdown-first contract for authoring and revising university course lesson plans: canonical Markdown source, Word as compiled presentation, content QA before visual QA.",
+  "author": {
+    "name": "Teaching Works Lab",
+    "url": "https://github.com/Teaching-Works-Lab"
+  },
+  "homepage": "https://github.com/Teaching-Works-Lab/lesson-plan-authoring-skill",
+  "repository": "https://github.com/Teaching-Works-Lab/lesson-plan-authoring-skill",
+  "keywords": [
+    "education",
+    "teaching-plan",
+    "lesson-plan",
+    "markdown-first",
+    "contract"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lesson Plan Authoring Skill",
+    "shortDescription": "Markdown-first contract for lesson-plan authoring and revision.",
+    "longDescription": "Govern university lesson-plan authoring and revision with a Markdown-first single-source model: canonical Markdown is the content authority, Word is a compiled presentation artifact; content QA precedes Word compilation; Word-to-Markdown reverse authoring is prohibited except one-time legacy migration.",
+    "developerName": "Teaching Works Lab",
+    "category": "Education",
+    "capabilities": [
+      "Define the Markdown-first authoring discipline for lesson plans",
+      "Contract knowledge maps, lesson records, deliverable bundles and visual QA",
+      "Provide regression scenarios and an executable contract check"
+    ],
+    "defaultPrompt": [
+      "Author a course lesson plan following the Markdown-first contract.",
+      "Check whether this lesson-plan revision preserves the calibrated baseline."
+    ]
+  }
+}

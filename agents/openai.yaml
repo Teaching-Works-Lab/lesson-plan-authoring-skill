@@ -1,0 +1,4 @@
+interface:
+  display_name: "教案编制契约"
+  short_description: "Markdown-first 教案编制与修订契约：Markdown 为内容权威，Word 为编译呈现，内容 QA 先于 Word 编译"
+  default_prompt: "Use $lesson-plan-authoring-skill to apply the Markdown-first lesson-plan authoring contract."
