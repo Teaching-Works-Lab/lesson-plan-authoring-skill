@@ -23,3 +23,17 @@ Package includes:
 - `tests/test-markdown-first-contract.sh` — executable contract check.
 
 GitHub writes still require separate explicit authorization.
+
+## WorkBuddy 安装（Skill）
+
+本仓库根目录的 `SKILL.md` 即 WorkBuddy Skill 入口，直接克隆到 WorkBuddy 的 skills 目录即可使用：
+
+```bash
+git clone https://github.com/Teaching-Works-Lab/lesson-plan-authoring-skill.git ~/.workbuddy/skills/lesson-plan-authoring-skill
+```
+
+保留目录结构，不要单独复制 `SKILL.md`——`references/`、`data/`、`scripts/` 都是 Skill 的组成部分。安装后无需重启或注册，下次对话即可通过 `@skill:lesson-plan-authoring-skill` 显式调用，或由 WorkBuddy 按 Skill 描述自动选择。
+
+运行环境：纯文档契约型 Skill，无需额外服务；配套校验脚本在 `tests/`。
+
+WorkBuddy 通过 `~/.workbuddy/skills/` 目录发现 Skill，不使用 Codex Marketplace；两种方式可并存，互不干扰。
